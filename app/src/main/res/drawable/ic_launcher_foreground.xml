@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Book Hardcover Base -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M23,43 C33,40 44,38 54,40 C64,38 75,40 85,43 C85.6,43.2 86,43.8 86,44.5 L86,76.5 C86,77.3 85.3,77.9 84.5,77.7 C74.8,75 64.6,73.4 54,75.2 C43.4,73.4 33.2,75 23.5,77.7 C22.7,77.9 22,77.3 22,76.5 L22,44.5 C22,43.8 22.4,43.2 23,43 Z" />
+
+    <!-- Left Page Base (Parchment White) -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,72 C43.5,70.3 34,71.8 25,74.2 L25,41.2 C34,38.8 43.5,37.3 54,39 Z" />
+
+    <!-- Right Page Base (Subtle Shadowed White) -->
+    <path
+        android:fillColor="#EDE9FE"
+        android:pathData="M54,72 C64.5,70.3 74,71.8 83,74.2 L83,41.2 C74,38.8 64.5,37.3 54,39 Z" />
+
+    <!-- Left Page Text Hint Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M30,47 C37,45.8 44,45.2 49,46 M30,53 C37,51.8 44,51.2 49,52 M30,59 C37,57.8 44,57.2 49,58 M30,65 C35,64.2 41,63.8 46,64.3" />
+
+    <!-- Right Page Text Hint Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C7D2FE"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M59,46 C64,45.2 71,45.8 78,47 M59,52 C64,51.2 71,51.8 78,53 M59,58 C64,57.2 71,57.8 78,59 M59,64.3 C63,63.8 68,64.1 73,65" />
+
+    <!-- Center Spine Crease -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A5B4FC"
+        android:strokeWidth="1.5"
+        android:pathData="M54,39 L54,72" />
+
+    <!-- Golden Bookmark Ribbon -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M51.5,36 L56.5,36 L56.5,58 L54,55.5 L51.5,58 Z" />
+
+    <!-- Top Sparkle Star -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,32 C78,34.5 79.5,36 82,36 C79.5,36 78,37.5 78,40 C78,37.5 76.5,36 74,36 C76.5,36 78,34.5 78,32 Z" />
+</vector>

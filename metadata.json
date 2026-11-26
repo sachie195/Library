@@ -1,0 +1,6 @@
+{
+  "name": "Folio Reader",
+  "description": "An elegant digital library and book reader app with customizable typography, themes, reading statistics, bookmarks, notes, text-to-speech, and rich classic literature.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
